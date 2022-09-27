@@ -1,0 +1,8 @@
+[
+	"gauge",
+	"run",
+	"--hide-suggestion",
+	"--simple-console",
+	"--dir=c:\\Gauge\\gauge-maven\\gauge-maven-selProject",
+	"c:\\Gauge\\gauge-maven\\gauge-maven-selProject\\specs\\example.spec"
+]

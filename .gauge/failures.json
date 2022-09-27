@@ -1,0 +1,9 @@
+{
+	"Args": [
+		"run",
+		"--hide-suggestion",
+		"--simple-console",
+		"--dir=c:\\Gauge\\gauge-maven\\gauge-maven-selProject"
+	],
+	"FailedItems": []
+}

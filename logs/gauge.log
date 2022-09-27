@@ -1,0 +1,190 @@
+27-09-2022 13:16:23.194 [Gauge] [DEBUG] Created gauge_screenshots_dir at c:\Gauge\gauge-maven\gauge-maven-selProject\.gauge\screenshots
+27-09-2022 13:16:23.195 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-09-2022 13:16:23.196 [Gauge] [DEBUG] Plugin java is already installed.
+27-09-2022 13:16:23.196 [Gauge] [DEBUG] Parsing started.
+27-09-2022 13:16:23.196 [Gauge] [DEBUG] Started concepts parsing.
+27-09-2022 13:16:23.200 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-09-2022 13:16:23.201 [Gauge] [DEBUG] Started specifications parsing.
+27-09-2022 13:16:23.201 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-09-2022 13:16:23.201 [Gauge] [DEBUG] Parsing completed.
+27-09-2022 13:16:23.221 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-09-2022 13:16:23.223 [java] [DEBUG] PATH: C:\Program Files\Gauge\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Selenium\Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\nesbine.akhter\AppData\Local\Microsoft\WindowsApps;C:\Users\nesbine.akhter\.dotnet\tools;C:\Users\nesbine.akhter\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nesbine.akhter\AppData\Local\GitHubDesktop\bin;C:\Users\nesbine.akhter\AppData\Roaming\gauge\plugins\screenshot\0.1.0
+27-09-2022 13:16:23.223 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_251
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_project_root: c:\Gauge\gauge-maven\gauge-maven-selProject
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_parallel_streams_count: 4
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_reports_dir: reports
+27-09-2022 13:16:23.223 [java] [DEBUG] overwrite_reports: true
+27-09-2022 13:16:23.223 [java] [DEBUG] logs_directory: logs
+27-09-2022 13:16:23.223 [java] [DEBUG] enable_multithreading: false
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_specs_dir: specs
+27-09-2022 13:16:23.223 [java] [DEBUG] csv_delimiter: ,
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_java_home: 
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_custom_build_path: 
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_additional_libs: libs/*
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_jvm_args: 
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_custom_compile_dir: 
+27-09-2022 13:16:23.223 [java] [DEBUG] gauge_clear_state_level: scenario
+27-09-2022 13:16:23.223 [java] [DEBUG] ***** END *****
+27-09-2022 13:16:23.402 [Gauge] [DEBUG] Checking updates...
+27-09-2022 13:16:23.405 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,xml-report&o=windows&a=amd64
+27-09-2022 13:16:23.612 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,xml-report&o=windows&a=amd64
+27-09-2022 13:16:23.650 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,xml-report&o=windows&a=amd64
+27-09-2022 13:16:23.686 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,xml-report&o=windows&a=amd64
+27-09-2022 13:16:25.958 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+27-09-2022 13:16:25.960 [java] [DEBUG] classpath set to c:\Gauge\gauge-maven\gauge-maven-selProject\target\test-classes;c:\Gauge\gauge-maven\gauge-maven-selProject\target\classes;C:\Users\nesbine.akhter\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.15\gauge-java-0.7.15.jar;C:\Users\nesbine.akhter\.m2\repository\com\github\javaparser\javaparser-core\3.16.3\javaparser-core-3.16.3.jar;C:\Users\nesbine.akhter\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\nesbine.akhter\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\nesbine.akhter\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\protobuf\protobuf-java\3.15.8\protobuf-java-3.15.8.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nesbine.akhter\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-netty-shaded\1.37.0\grpc-netty-shaded-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-core\1.37.0\grpc-core-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\nesbine.akhter\.m2\repository\io\perfmark\perfmark-api\0.23.0\perfmark-api-0.23.0.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-protobuf\1.37.0\grpc-protobuf-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-api\1.37.0\grpc-api-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-context\1.37.0\grpc-context-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.0.1\proto-google-common-protos-2.0.1.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-protobuf-lite\1.37.0\grpc-protobuf-lite-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.19\animal-sniffer-annotations-1.19.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-stub\1.37.0\grpc-stub-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\nesbine.akhter\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nesbine.akhter\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\thoughtworks\gauge\maven\gauge-maven-plugin\1.5.0\gauge-maven-plugin-1.5.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-plugin-api\3.6.0\maven-plugin-api-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-model\3.6.0\maven-model-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.3\org.eclipse.sisu.plexus-0.3.3.jar;C:\Users\nesbine.akhter\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\nesbine.akhter\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-core\3.6.0\maven-core-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-settings\3.6.0\maven-settings-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-settings-builder\3.6.0\maven-settings-builder-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.25\plexus-interpolation-1.25.jar;C:\Users\nesbine.akhter\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\nesbine.akhter\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-builder-support\3.6.0\maven-builder-support-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-repository-metadata\3.6.0\maven-repository-metadata-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-model-builder\3.6.0\maven-model-builder-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-resolver-provider\3.6.0\maven-resolver-provider-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\resolver\maven-resolver-impl\1.3.1\maven-resolver-impl-1.3.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.3.1\maven-resolver-api-1.3.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\resolver\maven-resolver-spi\1.3.1\maven-resolver-spi-1.3.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.3.1\maven-resolver-util-1.3.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.3\org.eclipse.sisu.inject-0.3.3.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\inject\guice\4.2.1\guice-4.2.1-no_aop.jar;C:\Users\nesbine.akhter\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\nesbine.akhter\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.7.1\plexus-component-annotations-1.7.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-artifact\3.6.0\maven-artifact-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\commons\commons-lang3\3.3\commons-lang3-3.3.jar;C:\Users\nesbine.akhter\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.0\webdrivermanager-4.4.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\nesbine.akhter\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\nesbine.akhter\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\nesbine.akhter\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\nesbine.akhter\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+27-09-2022 13:16:26.047 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_251\jre\bin\java.exe
+27-09-2022 13:16:26.047 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_251\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-09-2022 13:16:26.047 [java] [DEBUG] stdout/stderr is logged to logs\15764-java.exe.out
+27-09-2022 13:16:26.252 [java] [DEBUG] multithreading is set to false
+27-09-2022 13:16:26.653 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-09-2022 13:16:26.755 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+27-09-2022 13:16:26.755 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+27-09-2022 13:16:26.755 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+27-09-2022 13:16:27.893 [java] [DEBUG] gauge-java took 1606milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-09-2022 13:16:27.893 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1606
+27-09-2022 13:16:27.893 [java] [DEBUG] starting gRPC server...
+27-09-2022 13:16:28.471 [java] [DEBUG] started gRPC server on port 61880
+27-09-2022 13:16:28.471 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61880
+27-09-2022 13:16:28.677 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61880
+27-09-2022 13:16:28.677 [Gauge] [DEBUG] Validation started.
+27-09-2022 13:16:29.443 [java] [DEBUG] Scanning packages for steps
+27-09-2022 13:16:29.457 [java] [DEBUG] Comparing 'StepImplementation.implementation1' and 'StepImplementation.implementation1'
+27-09-2022 13:16:29.457 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+27-09-2022 13:16:29.457 [java] [DEBUG] Comparing 'StepImplementation.gotoGetStartedPage' and 'StepImplementation.gotoGetStartedPage'
+27-09-2022 13:16:29.457 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+27-09-2022 13:16:29.457 [java] [DEBUG] Comparing 'StepImplementation.ensureInstallationInstructionsAreAvailable' and 'StepImplementation.ensureInstallationInstructionsAreAvailable'
+27-09-2022 13:16:29.457 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+27-09-2022 13:16:29.457 [java] [DEBUG] Scanning packages for hooks
+27-09-2022 13:16:29.465 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-09-2022 13:16:29.466 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+27-09-2022 13:16:29.466 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+27-09-2022 13:16:29.466 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+27-09-2022 13:16:30.875 [Gauge] [DEBUG] Validation completed.
+27-09-2022 13:16:30.875 [Gauge] [DEBUG] Run started
+27-09-2022 13:16:30.876 [Gauge] [DEBUG] Starting Html Report plugin
+27-09-2022 13:16:30.965 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61883
+27-09-2022 13:16:30.966 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61883
+27-09-2022 13:16:30.967 [Gauge] [DEBUG] Initialising suite data store.
+27-09-2022 13:16:33.012 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 19772
+27-09-2022 13:16:33.012 [java] [ERROR] Only local connections are allowed.
+27-09-2022 13:16:33.012 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-09-2022 13:16:33.019 [java] [ERROR] ChromeDriver was started successfully.
+27-09-2022 13:16:34.513 [java] [ERROR] Sep 27, 2022 1:16:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-09-2022 13:16:34.515 [java] [ERROR] INFO: Detected dialect: W3C
+27-09-2022 13:16:34.538 [Gauge] [INFO] # Getting Started with Gauge
+27-09-2022 13:16:34.546 [Gauge] [INFO] ## Get Started
+27-09-2022 13:16:34.557 [Gauge] [DEBUG] * Open the Gauge homepage
+
+27-09-2022 13:16:34.569 [java] [DEBUG] Executing 'Open the Gauge homepage' using 'class StepImplementation.implementation1
+27-09-2022 13:16:35.252 [Gauge] [DEBUG] * Go to Gauge Get Started Page
+27-09-2022 13:16:35.256 [java] [DEBUG] Executing 'Go to Gauge Get Started Page' using 'class StepImplementation.gotoGetStartedPage
+27-09-2022 13:16:35.892 [Gauge] [DEBUG] * Ensure installation instructions are available
+27-09-2022 13:16:35.897 [java] [DEBUG] Executing 'Ensure installation instructions are available' using 'class StepImplementation.ensureInstallationInstructionsAreAvailable
+27-09-2022 13:16:36.679 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-09-2022 13:16:37.691 [html-report] [INFO] Successfully generated html-report to => c:\Gauge\gauge-maven\gauge-maven-selProject\reports\html-report\index.html
+27-09-2022 13:16:37.691 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\nesbine.akhter\AppData\Roaming\gauge\plugins\html-report\4.1.4\themes\default
+27-09-2022 13:16:37.691 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-09-2022 13:16:37.694 [java] [DEBUG] Killing Java runner...
+27-09-2022 13:16:37.706 [java] [DEBUG] Stopping execution pool...
+27-09-2022 13:16:37.763 [java] [DEBUG] Shutting down grpc server...
+27-09-2022 13:16:37.776 [java] [DEBUG] Runner killed gracefully.
+27-09-2022 13:16:38.431 [Gauge] [DEBUG] Runner with PID:15764 has exited
+27-09-2022 13:16:38.431 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+27-09-2022 13:16:38.432 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+27-09-2022 13:16:38.432 [Gauge] [INFO] 
+Total time taken: 5.793s
+27-09-2022 13:18:46.694 [Gauge] [DEBUG] Created gauge_screenshots_dir at c:\Gauge\gauge-maven\gauge-maven-selProject\.gauge\screenshots
+27-09-2022 13:18:46.695 [Gauge] [DEBUG] Plugin java is already installed.
+27-09-2022 13:18:46.695 [Gauge] [DEBUG] Plugin html-report is already installed.
+27-09-2022 13:18:46.696 [Gauge] [DEBUG] Parsing started.
+27-09-2022 13:18:46.696 [Gauge] [DEBUG] Started concepts parsing.
+27-09-2022 13:18:46.699 [Gauge] [DEBUG] 0 concepts parsing completed.
+27-09-2022 13:18:46.699 [Gauge] [DEBUG] Started specifications parsing.
+27-09-2022 13:18:46.700 [Gauge] [DEBUG] 1 specifications parsing completed.
+27-09-2022 13:18:46.700 [Gauge] [DEBUG] Parsing completed.
+27-09-2022 13:18:46.719 [java] [DEBUG] ***** Printing Properties/Env Values *****
+27-09-2022 13:18:46.719 [java] [DEBUG] PATH: C:\Program Files\Gauge\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Selenium\Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\nesbine.akhter\AppData\Local\Microsoft\WindowsApps;C:\Users\nesbine.akhter\.dotnet\tools;C:\Users\nesbine.akhter\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nesbine.akhter\AppData\Local\GitHubDesktop\bin;C:\Users\nesbine.akhter\AppData\Roaming\gauge\plugins\screenshot\0.1.0
+27-09-2022 13:18:46.719 [java] [DEBUG] JAVA_HOME: C:\Program Files\Java\jdk1.8.0_251
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_project_root: c:\Gauge\gauge-maven\gauge-maven-selProject
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_parallel_streams_count: 4
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_reports_dir: reports
+27-09-2022 13:18:46.719 [java] [DEBUG] overwrite_reports: true
+27-09-2022 13:18:46.719 [java] [DEBUG] logs_directory: logs
+27-09-2022 13:18:46.719 [java] [DEBUG] enable_multithreading: false
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_specs_dir: specs
+27-09-2022 13:18:46.719 [java] [DEBUG] csv_delimiter: ,
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_java_home: 
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_custom_build_path: 
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_additional_libs: libs/*
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_jvm_args: 
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_custom_compile_dir: 
+27-09-2022 13:18:46.719 [java] [DEBUG] gauge_clear_state_level: scenario
+27-09-2022 13:18:46.719 [java] [DEBUG] ***** END *****
+27-09-2022 13:18:46.870 [Gauge] [DEBUG] Checking updates...
+27-09-2022 13:18:46.871 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot,xml-report&o=windows&a=amd64
+27-09-2022 13:18:46.978 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot,xml-report&o=windows&a=amd64
+27-09-2022 13:18:47.010 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot,xml-report&o=windows&a=amd64
+27-09-2022 13:18:47.062 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=java&p=html-report,java,screenshot,xml-report&o=windows&a=amd64
+27-09-2022 13:18:49.532 [java] [ERROR] Installed version of gauge-java (0.9.1) does not match with dependency gauge-java (0.7.15) specified in pom.xml file
+27-09-2022 13:18:49.533 [java] [DEBUG] classpath set to c:\Gauge\gauge-maven\gauge-maven-selProject\target\test-classes;c:\Gauge\gauge-maven\gauge-maven-selProject\target\classes;C:\Users\nesbine.akhter\.m2\repository\com\thoughtworks\gauge\gauge-java\0.7.15\gauge-java-0.7.15.jar;C:\Users\nesbine.akhter\.m2\repository\com\github\javaparser\javaparser-core\3.16.3\javaparser-core-3.16.3.jar;C:\Users\nesbine.akhter\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\nesbine.akhter\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\nesbine.akhter\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\protobuf\protobuf-java\3.15.8\protobuf-java-3.15.8.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nesbine.akhter\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-netty-shaded\1.37.0\grpc-netty-shaded-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-core\1.37.0\grpc-core-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\nesbine.akhter\.m2\repository\io\perfmark\perfmark-api\0.23.0\perfmark-api-0.23.0.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-protobuf\1.37.0\grpc-protobuf-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-api\1.37.0\grpc-api-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-context\1.37.0\grpc-context-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.0.1\proto-google-common-protos-2.0.1.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-protobuf-lite\1.37.0\grpc-protobuf-lite-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.19\animal-sniffer-annotations-1.19.jar;C:\Users\nesbine.akhter\.m2\repository\io\grpc\grpc-stub\1.37.0\grpc-stub-1.37.0.jar;C:\Users\nesbine.akhter\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\nesbine.akhter\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nesbine.akhter\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nesbine.akhter\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nesbine.akhter\.m2\repository\com\thoughtworks\gauge\maven\gauge-maven-plugin\1.5.0\gauge-maven-plugin-1.5.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-plugin-api\3.6.0\maven-plugin-api-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-model\3.6.0\maven-model-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.3\org.eclipse.sisu.plexus-0.3.3.jar;C:\Users\nesbine.akhter\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\nesbine.akhter\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-core\3.6.0\maven-core-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-settings\3.6.0\maven-settings-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-settings-builder\3.6.0\maven-settings-builder-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.25\plexus-interpolation-1.25.jar;C:\Users\nesbine.akhter\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\nesbine.akhter\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-builder-support\3.6.0\maven-builder-support-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-repository-metadata\3.6.0\maven-repository-metadata-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-model-builder\3.6.0\maven-model-builder-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-resolver-provider\3.6.0\maven-resolver-provider-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\resolver\maven-resolver-impl\1.3.1\maven-resolver-impl-1.3.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.3.1\maven-resolver-api-1.3.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\resolver\maven-resolver-spi\1.3.1\maven-resolver-spi-1.3.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.3.1\maven-resolver-util-1.3.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.3\org.eclipse.sisu.inject-0.3.3.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\inject\guice\4.2.1\guice-4.2.1-no_aop.jar;C:\Users\nesbine.akhter\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\nesbine.akhter\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\nesbine.akhter\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.7.1\plexus-component-annotations-1.7.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\maven\maven-artifact\3.6.0\maven-artifact-3.6.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\commons\commons-lang3\3.3\commons-lang3-3.3.jar;C:\Users\nesbine.akhter\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.0\webdrivermanager-4.4.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\nesbine.akhter\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\nesbine.akhter\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\nesbine.akhter\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\nesbine.akhter\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\nesbine.akhter\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\nesbine.akhter\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\nesbine.akhter\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar
+27-09-2022 13:18:49.614 [java] [DEBUG] found java executable in C:\Program Files\Java\jdk1.8.0_251\jre\bin\java.exe
+27-09-2022 13:18:49.614 [java] [DEBUG] running - C:\Program Files\Java\jdk1.8.0_251\jre\bin\java.exe [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+27-09-2022 13:18:49.614 [java] [DEBUG] stdout/stderr is logged to logs\15652-java.exe.out
+27-09-2022 13:18:49.818 [java] [DEBUG] multithreading is set to false
+27-09-2022 13:18:50.209 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+27-09-2022 13:18:50.308 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+27-09-2022 13:18:50.308 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+27-09-2022 13:18:50.308 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+27-09-2022 13:18:50.931 [java] [DEBUG] gauge-java took 1093milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+27-09-2022 13:18:50.931 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 1093
+27-09-2022 13:18:50.931 [java] [DEBUG] starting gRPC server...
+27-09-2022 13:18:51.446 [java] [DEBUG] started gRPC server on port 61944
+27-09-2022 13:18:51.446 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61944
+27-09-2022 13:18:51.622 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61944
+27-09-2022 13:18:51.622 [Gauge] [DEBUG] Validation started.
+27-09-2022 13:18:52.899 [java] [DEBUG] Scanning packages for steps
+27-09-2022 13:18:52.929 [java] [DEBUG] Comparing 'StepImplementation.implementation1' and 'StepImplementation.implementation1'
+27-09-2022 13:18:52.929 [java] [DEBUG] Found Open the Gauge homepage in current project scope.
+27-09-2022 13:18:52.929 [java] [DEBUG] Comparing 'StepImplementation.gotoGetStartedPage' and 'StepImplementation.gotoGetStartedPage'
+27-09-2022 13:18:52.929 [java] [DEBUG] Found Go to Gauge Get Started Page in current project scope.
+27-09-2022 13:18:52.929 [java] [DEBUG] Comparing 'StepImplementation.ensureInstallationInstructionsAreAvailable' and 'StepImplementation.ensureInstallationInstructionsAreAvailable'
+27-09-2022 13:18:52.929 [java] [DEBUG] Found Ensure installation instructions are available in current project scope.
+27-09-2022 13:18:52.929 [java] [DEBUG] Scanning packages for hooks
+27-09-2022 13:18:52.950 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+27-09-2022 13:18:52.950 [java] [DEBUG] 	Open the Gauge homepage : public void implementation1()
+27-09-2022 13:18:52.950 [java] [DEBUG] 	Go to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException
+27-09-2022 13:18:52.950 [java] [DEBUG] 	Ensure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException
+27-09-2022 13:18:54.219 [Gauge] [DEBUG] Validation completed.
+27-09-2022 13:18:54.219 [Gauge] [DEBUG] Run started
+27-09-2022 13:18:54.220 [Gauge] [DEBUG] Starting Html Report plugin
+27-09-2022 13:18:54.240 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61947
+27-09-2022 13:18:54.240 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61947
+27-09-2022 13:18:54.240 [Gauge] [DEBUG] Initialising suite data store.
+27-09-2022 13:18:54.980 [java] [ERROR] Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 13259
+27-09-2022 13:18:54.980 [java] [ERROR] Only local connections are allowed.
+27-09-2022 13:18:54.980 [java] [ERROR] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+27-09-2022 13:18:54.985 [java] [ERROR] ChromeDriver was started successfully.
+27-09-2022 13:18:56.342 [java] [ERROR] Sep 27, 2022 1:18:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+27-09-2022 13:18:56.342 [java] [ERROR] INFO: Detected dialect: W3C
+27-09-2022 13:18:56.364 [Gauge] [INFO] # Getting Started with Gauge
+27-09-2022 13:18:56.377 [Gauge] [INFO] ## Get Started
+27-09-2022 13:18:56.388 [Gauge] [DEBUG] * Open the Gauge homepage
+
+27-09-2022 13:18:56.403 [java] [DEBUG] Executing 'Open the Gauge homepage' using 'class StepImplementation.implementation1
+27-09-2022 13:18:57.122 [Gauge] [DEBUG] * Go to Gauge Get Started Page
+27-09-2022 13:18:57.126 [java] [DEBUG] Executing 'Go to Gauge Get Started Page' using 'class StepImplementation.gotoGetStartedPage
+27-09-2022 13:18:57.806 [Gauge] [DEBUG] * Ensure installation instructions are available
+27-09-2022 13:18:57.823 [java] [DEBUG] Executing 'Ensure installation instructions are available' using 'class StepImplementation.ensureInstallationInstructionsAreAvailable
+27-09-2022 13:18:58.555 [html-report] [DEBUG] Transformed SuiteResult to report structure
+27-09-2022 13:18:58.604 [html-report] [INFO] Successfully generated html-report to => c:\Gauge\gauge-maven\gauge-maven-selProject\reports\html-report\index.html
+27-09-2022 13:18:58.604 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+27-09-2022 13:18:58.604 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\nesbine.akhter\AppData\Roaming\gauge\plugins\html-report\4.1.4\themes\default
+27-09-2022 13:18:58.608 [java] [DEBUG] Killing Java runner...
+27-09-2022 13:18:58.613 [java] [DEBUG] Stopping execution pool...
+27-09-2022 13:18:58.613 [java] [DEBUG] Shutting down grpc server...
+27-09-2022 13:18:58.622 [java] [DEBUG] Runner killed gracefully.
+27-09-2022 13:18:59.280 [Gauge] [DEBUG] Runner with PID:15652 has exited
+27-09-2022 13:18:59.280 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+27-09-2022 13:18:59.280 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+27-09-2022 13:18:59.280 [Gauge] [INFO] 
+Total time taken: 4.332s
